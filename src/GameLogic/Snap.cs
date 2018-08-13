@@ -139,7 +139,6 @@ namespace CardGames.GameLogic
 		/// </summary>
 		public void PlayerHit (int player)
 		{
-			//TODO: consider deducting score for miss hits???
 			if (player >= 0 && player < _score.Length && // …
 			IsStarted && // …
 			_topCards [0] != null &&
